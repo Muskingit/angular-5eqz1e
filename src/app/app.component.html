@@ -1,0 +1,21 @@
+<nav mat-tab-nav-bar>
+   <a
+    mat-tab-link
+    routerLink="/claim"
+    routerLinkActive
+    #claim="routerLinkActive"
+    [active]="claim.isActive"
+  >
+    ClaimStatus
+  </a> 
+  <a
+    mat-tab-link
+    routerLink="/doc"
+    routerLinkActive
+    #doc="routerLinkActive"
+    [active]="doc.isActive"
+    >Document Recevived</a
+  > 
+</nav>
+
+<router-outlet></router-outlet>

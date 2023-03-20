@@ -1,0 +1,25 @@
+.thick {
+  font-weight: bold;
+}
+.mat {
+  width: 70%;
+  margin: auto;
+  font-family: Lato;
+}
+
+.cardprop {
+  background-color: lightblue;
+border: 1px solid;
+margin-bottom: 10px;
+}
+
+
+.charSize {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cardcol {
+  /* background-color: lightskyblue; */
+border: 1px solid;
+}

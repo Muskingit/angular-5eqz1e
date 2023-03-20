@@ -1,0 +1,73 @@
+
+  
+
+
+
+<mat-card class="cardcol">
+  <mat-card-content>
+    <mat-card class="cardprop" *ngFor="let employee of dataemp">
+      
+      <mat-card-content class="mat">
+
+        <!-- <div style="display:flex ">
+
+          <div class="thick">patientDetails:</div>
+          <div>
+            {{ employee.patientDetails.firstName }}
+            {{ employee.patientDetails.lastName }}
+          </div>
+        </div>
+        <div style="display:flex">
+          <div class="thick">Claim Number:</div>
+          <div>{{ employee.claimNumber.claimNumber }}</div>
+        </div>
+    
+        <div style="display:flex">
+          <div class="thick">Date submited:</div>
+          <div>{{ employee.claimNumber.DataSubmitted }}</div>
+        </div>
+    
+        <div style="display:flex">
+          <div class="thick">Documents Status:</div>
+          <div>{{ employee.claimNumber.ClaimStatus }}</div>
+        </div> -->
+
+        <table>
+         
+          
+          <tr style="">
+            <td class="charSize">patient Name:</td>
+            <td>{{ employee.patientDetails.firstName }}
+              {{ employee.patientDetails.lastName }}</td>
+            
+          </tr>
+
+          <tr>
+            <td class="charSize">Claim Number:</td>
+            <td>{{ employee.claimNumber.claimNumber }}</td>
+            
+          </tr>
+
+          <tr>
+            <td class="charSize">Date submited:</td>
+            <td>{{ employee.claimNumber.DataSubmitted }}</td>
+            
+          </tr>
+
+          <tr>
+            <td class="charSize">Documents Status:</td>
+            <td>{{ employee.claimNumber.ClaimStatus }}</td>
+            
+          </tr>
+        </table>
+      </mat-card-content>
+
+     
+    </mat-card>
+  </mat-card-content>
+</mat-card>
+   
+   
+
+   
+
